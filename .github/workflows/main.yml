@@ -14,4 +14,4 @@ jobs:
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: 
-          aws s3 cp index.html s3://311-knowledge-base --recursive # change it
+          aws s3 cp index.html s3://311-knowledge-base/index.html # change it
